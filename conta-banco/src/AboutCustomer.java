@@ -22,15 +22,19 @@ public static void main(String[] args) {
             System.out.println("Digite o número da agência:");
             String númeroDaAgência = scanner.next();
 
+            double saldoAtual = 48.0;
+
 
         System.out.println("Nome Completo: " + nome + " " + sobrenome);
         System.out.println("Número da Agência: " + númeroDaAgência);
         System.out.println("Número da Conta: " + númeroDaConta);
-        System.out.println("Seu saldo atual é: R$560,50");
+        System.out.println("Seu saldo atual é de: R$" + saldoAtual);
+
+        
         
 
 
-        
+
     }
 
 
