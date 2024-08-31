@@ -10,11 +10,13 @@ public static void main(String[] args) {
             System.out.println("Olá, seja bem-vindo a página de acesso do seu banco!");
             System.out.println("Para obter informações sobre o saldo atual, será necessário as seguintes informações: ");
 
-            System.out.println("Digite seu nome:");
+            System.out.println("Digite seu nome:");           
             String nome = scanner.next();
 
             System.out.println("Digite seu sobrenome:");
             String sobrenome = scanner.next();
+
+            System.out.println("Olá " + nome + " " + sobrenome + " seja bem vindo(a) a seu banco digital!");
 
             System.out.println("Digite o número da conta:");
             Short númeroDaConta = scanner.nextShort();
